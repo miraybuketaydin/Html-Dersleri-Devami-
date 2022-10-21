@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .tbox{
+            width: 120px;
+            height: 25px;
+        }
+        .tbox:hover{
+            background-color: blue;
+        }
+        .tbox:focus{
+            background-color: green;
+        }
+        .pclass{
+            color: gray;
+        }
+        .pclass::first-line{
+            color: pink
+        }
+        .pclass::first-letter{
+            color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <input type="text" class="tbox">
+    <p class="pclass">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos explicabo temporibus aliquid numquam, ea ad fugiat labore unde quia libero distinctio, vitae corporis sit totam! Obcaecati tempore dolore quo veritatis?
+    </p>
+</body>
+</html>
